@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test examples should be 6 1`] = `6`;
+
+exports[`test examples should return a number 1`] = `1`;

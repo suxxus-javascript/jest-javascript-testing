@@ -1,0 +1,29 @@
+{
+    "name": "jest-testing",
+    "version": "0.0.0",
+    "description": "studie javascript testing solution with Facebook Jest",
+    "repository": "''",
+    "author": "suxxus <suxxus@outlook.com>",
+    "license": "MIT",
+    "scripts": {
+        "eslint": "eslint --fix --color  src || true",
+        "lint": "watch -p 'src/**/*.js' -c 'npm run eslint'",
+        "test": "NODE_PATH=$(pwd)/src jest --watch",
+        "freddie": "freddie"
+    },
+    "devDependencies": {
+        "eslint": "^3.19.0",
+        "eslint-cli": "^1.1.0",
+        "eslint-config-eslint": "^4.0.0",
+        "freddie": "^0.5.1",
+        "jest-cli": "^20.0.4",
+        "watch-cli": "^0.2.1"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "verbose": true
+    },
+    "dependencies": {
+        "isomorphic-fetch": "^2.2.1"
+    }
+}
