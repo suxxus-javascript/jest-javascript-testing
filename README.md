@@ -1,5 +1,7 @@
 # jest-javascript-testing
-***Studie javascript testing solution with Facebook Jest***
+(studies)
+***javascript testing solution with Facebook Jest***
+
 
 * promises
 * snapshot
